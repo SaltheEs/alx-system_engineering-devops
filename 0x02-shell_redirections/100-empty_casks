@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | sort -z | tr "\0" "\n"
+find . -type f  -empty | sort -z | tr " " "\n"
